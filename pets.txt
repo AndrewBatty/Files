@@ -1,0 +1,7 @@
+Dog
+Cat
+Python
+Turtle
+Rabbit
+Gerbal
+Hammster
