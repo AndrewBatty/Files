@@ -17,6 +17,6 @@ for count in range(6):
     person.dateOfBirth = input("Please enter the date of birth: ")
     birthdays.append(person)
 
-with open("birthday_file.txt", mode="wb") as birthday_file:
+with open("birthday_file.dat", mode="wb") as birthday_file:
     pickle.dump(birthdays,birthday_file)
     

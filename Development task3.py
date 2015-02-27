@@ -9,7 +9,7 @@ class birthday:
         self.name = None
         self.dateOfBirth = None
         
-with open("birthday_file.txt", mode="rb") as birthday_file:
+with open("birthday_file.dat", mode="rb") as birthday_file:
     birthdays = pickle.load(birthday_file)
 
 for birthday in birthdays:
